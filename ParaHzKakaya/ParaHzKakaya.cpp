@@ -88,7 +88,7 @@ void Start()
 
 				system("cls");
 
-			} while (choose.size() > 1 || choose[0] < 49 || choose[0] > 50); // 48-56 
+			} while (choose.size() > 1 || choose[0] < 49 || choose[0] > 50); 
 			
 			if (choose == "1")
 			{
@@ -283,7 +283,7 @@ void CreateStaticStorage()
 {
 	const int staticSize = 10;
 
-	int idStaticArr[staticSize]{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	int idStaticArr[staticSize]{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
 	std::string nameStaticArr[staticSize]
 	{ 
@@ -343,4 +343,6 @@ void ShowStorage()
 		std::cout << idArr[i] << "  | \t" << nameArr[i] << " | \t" << priceArr[i] << "\t|\t" << countArr[i] << "               |\n";
 		std::cout << "___|______________________________________________|_____________|________________________|\n";
 	}
+	std::cout << "\n";
+	std::cout << "\n";
 }
